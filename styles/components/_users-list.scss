@@ -1,0 +1,18 @@
+.users-list {
+  padding: var(--spacing-large);
+
+  .user {
+    cursor: pointer;
+    padding: var(--spacing-large);
+    border: 1px solid transparent;
+    border-radius: var(--border-radius);
+
+    &.selected { border-color: var(--black); }
+  }
+
+  .title {
+    padding-bottom: var(--spacing-medium);
+    font-size: var(--fs-medium);
+    font-weight: bold;
+  }
+}

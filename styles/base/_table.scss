@@ -1,0 +1,12 @@
+table {
+  width: 100%;
+
+  th { color: var(--gray); }
+
+  td, th {
+    padding: var(--spacing-large);
+    text-align: left;
+    font-weight: normal;
+    border-bottom: 1px solid var(--light-gray);
+  }
+}

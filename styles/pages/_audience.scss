@@ -1,0 +1,36 @@
+.audience-page {
+  display: flex;
+
+  .users,
+  .user-details {
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .users {
+    width: 30%;
+    max-width: 400px;
+    background-color: var(--lighter-gray);
+
+    header {
+      padding: var(--spacing-xlarge);
+      border-bottom: 1px solid var(--gray);
+    }
+
+    .header-title {
+      font-size: var(--fs-large);
+      font-weight: bold;
+      padding-bottom: var(--spacing-medium);
+    }
+  }
+
+  .user-details {
+    position: relative;
+    flex: 1;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.05);
+  }
+
+  .tiles {
+    margin-bottom: var(--spacing-xlarge);
+  }
+}

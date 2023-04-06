@@ -1,0 +1,13 @@
+.user-details {
+  padding: var(--spacing-xlarge);
+
+  .top-bar {
+    padding-bottom: var(--spacing-xlarge);
+
+    .title {
+      padding-bottom: var(--spacing-medium);
+      font-size: var(--fs-xlarge);
+      font-weight: bold;
+    }
+  }
+}

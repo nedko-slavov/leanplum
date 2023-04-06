@@ -1,0 +1,20 @@
+:root {
+  --base-font: Helvetica, Arial, sans-serif;
+
+  --fs-base: 12px;
+  --fs-medium: 14px;
+  --fs-large: 16px;
+  --fs-xlarge: 18px;
+}
+
+body {
+  font-family: var(--base-font);
+  font-size: var(--fs-base);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sub-title {
+  font-size: var(--fs-base);
+  color: var(--gray)
+}

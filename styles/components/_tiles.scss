@@ -1,0 +1,22 @@
+.tiles {
+  display: flex;
+
+  .tile {
+    margin-right: var(--spacing-large);
+    padding: var(--spacing-xlarge);
+    background-color: var(--lighter-gray);
+    border-radius: var(--border-radius);
+  }
+
+  .title {
+    padding-bottom: var(--spacing-medium);
+    width: 150px;
+    color: var(--gray);
+    font-size: var(--fs-base);
+  }
+
+  .value {
+    font-size: var(--fs-xlarge);
+    font-weight: bold;
+  }
+}
